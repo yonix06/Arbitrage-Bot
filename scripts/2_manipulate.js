@@ -24,12 +24,12 @@ async function main() {
 
   const pair = await getPairContract(V2_FACTORY_TO_USE, ARB_AGAINST.address, ARB_FOR.address, provider)
 
-  // Fetch price of LINK/WETH before we execute the swap
+  // Fetch price of tok0/WETH before we execute the swap
   const priceBefore = await calculatePrice(pair)
 
   await manipulatePrice([ARB_AGAINST, ARB_FOR], token0Contract)
 
-  // Fetch price of LINK/WETH after the swap
+  // Fetch price of tok0/WETH after the swap
   const priceAfter = await calculatePrice(pair)
 
   const data = {
