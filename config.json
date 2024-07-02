@@ -13,11 +13,11 @@
         "FACTORY_ADDRESS": "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac"
     }
     "IZUMI_TAIKO": {
-        "V2_ROUTER_02_ADDRESS": "0x04830cfCED9772b8ACbAF76Cfc7A630Ad82c9148", // SWAP ADDRESS ? doc: https://developer.izumi.finance/iZiSwap/deployed_contracts/mainnet
+        "V2_ROUTER_02_ADDRESS": "0x04830cfCED9772b8ACbAF76Cfc7A630Ad82c9148", // SWAP ADDRESS ? doc: https://developer.izumi.finance/iZiSwap/deployed_contracts/mainnet //
         "FACTORY_ADDRESS": "0x8c7d3063579BdB0b90997e18A770eaE32E1eBb08"
     },
-    "DTX_TAIKO": {
-        "V2_ROUTER_02_ADDRESS": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
-        "FACTORY_ADDRESS": "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac"
+    "OKU_TAIKO": { // https://docs.oku.trade/home/extra-information/deployed-contracts //
+        "V2_ROUTER_02_ADDRESS": "0xdD489C75be1039ec7d843A6aC2Fd658350B067Cf",
+        "FACTORY_ADDRESS": "0x75FC67473A91335B5b8F8821277262a13B38c9b3"
     }
 }
