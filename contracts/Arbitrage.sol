@@ -8,7 +8,7 @@ import "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol";
 
 // The Arbitrage contract implements the IFlashLoanRecipient interface.
 contract Arbitrage is IFlashLoanRecipient {
-    // Define the Balancer Vault contract address as a constant.
+    // Define the Balancer Vault contract address as a constant. Wait for TAIKO Balancer Vault. For now, this is valid in ETH GNO ARB POLY OP AVAX BASE POLYZK //
     IVault private constant vault = IVault(0xBA12222222228d8Ba445958a75a0704d566BF2C8);
 
     // Define Uniswap and Sushiswap router contracts and an owner address.
