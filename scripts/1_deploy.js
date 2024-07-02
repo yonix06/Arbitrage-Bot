@@ -15,8 +15,10 @@ async function main() {
   const arbitrage = await hre.ethers.deployContract(
     "Arbitrage",
     [
-      config.SUSHISWAP.V2_ROUTER_02_ADDRESS,
-      config.UNISWAP.V2_ROUTER_02_ADDRESS
+      // config.SUSHISWAP.V2_ROUTER_02_ADDRESS,
+      config.IZUMI_TAIKO.V2_ROUTER_02_ADDRESS,
+      config.OKU_TAIKO.V2_ROUTER_02_ADDRESS,
+      // config.UNISWAP.V2_ROUTER_02_ADDRESS
     ]
   )
 
