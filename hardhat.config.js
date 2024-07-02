@@ -2,6 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 const ETHEREUM_MAINNET_RPC_URL = `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`;
+const TAIKO_MAINNET_RPC_URL = `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`;
 const ETHEREUM_SEPOLIA_RPC_URL = `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`;
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 
@@ -13,6 +14,12 @@ module.exports = {
         url: ETHEREUM_MAINNET_RPC_URL
       },
       chainId: 31337,
+    },
+    hardhat_taiko: {
+      forking: {
+        url: TAIKO_MAINNET_RPC_URL
+      },
+      chainId: 167000,
     },
     localhost: {
       chainId: 31337,
